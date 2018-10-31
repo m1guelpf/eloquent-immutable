@@ -1,0 +1,35 @@
+{
+    "name": "m1guelpf/eloquent-immutable",
+    "description": "Enforce table immutability using Laravel Eloquent",
+    "keywords": [
+        "eloquent",
+        "immutable",
+        "immutability",
+        "m1guelpf"
+    ],
+    "homepage": "https://github.com/m1guelpf/eloquent-immutable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "homepage": "https://miguelpiedrafita.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/database": "^5.6"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "M1guelpf\\EloquentImmutable\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
